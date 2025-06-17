@@ -59,7 +59,7 @@ pricing-table/
 ## 📦 Installation & Running Locally
 
 ```bash
-git clone https://github.com/your-username/pricing-table.git
+git clone https://github.com/SatyanarayanPatra/pricing-table.git
 cd pricing-table
 
 # Install dependencies
