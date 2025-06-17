@@ -53,3 +53,56 @@ pricing-table/
 ├── tailwind.config.js
 ├── postcss.config.js
 └── README.md
+
+yaml
+Copy
+Edit
+
+---
+
+## 📦 Installation & Running Locally
+
+```bash
+git clone https://github.com/your-username/pricing-table.git
+cd pricing-table
+
+# Install dependencies
+npm install
+
+# Run the development server
+npm run dev
+
+# Visit in your browser
+http://localhost:3000
+🌐 Live Demo (Optional)
+🔗 View Live on Vercel
+
+Deploy using Vercel or Netlify with a single click.
+
+⚙️ Customization
+You can easily:
+
+Modify pricing plans in data/pricingData.js
+
+Change colors via Tailwind or theme config
+
+Add more features per plan
+
+Extend with Stripe checkout or backend logic
+
+✨ Accessibility & UX
+Keyboard-accessible toggle switch (<Switch />)
+
+ARIA labels on buttons
+
+Dark mode theme saved in localStorage
+
+Smooth transitions for prices and UI
+
+📄 License
+This project is licensed for personal, educational, or demo use. You may adapt and customize it freely.
+
+👨‍💻 Author
+Satyanarayan Patra
+Frontend Developer
+GitHub • LinkedIn
