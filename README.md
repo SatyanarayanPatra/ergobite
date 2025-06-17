@@ -19,9 +19,9 @@ A fully responsive, accessible, and dynamic **Pricing Table UI** built with **Ne
 
 ## 📸 Preview
 
-| 💡 Light Mode                                        | 🌑 Dark Mode                                       |
-| ---------------------------------------------------- | -------------------------------------------------- |
-| ![Light UI](./screenshots/light-mode assignment.png) | ![Dark UI](./screenshots/Dark-mode assignment.png) |
+| 💡 Light Mode                        | 🌑 Dark Mode                       |
+| ------------------------------------ | ---------------------------------- |
+| ![Light UI](./screenshots/light.png) | ![Dark UI](./screenshots/Dark.png) |
 
 > _(Add screenshots of your light and dark mode UI in a `screenshots/` folder for better presentation)_
 
