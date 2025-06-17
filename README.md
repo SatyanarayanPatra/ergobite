@@ -67,9 +67,9 @@ npm install
 npm run dev
 
 # Visit in your browser
-http://localhost:3000
-🌐 satyanarayanpatras-projects/ergobite (Optional)
-🔗 satyanarayanpatras-projects/ergobite
+- [http://localhost:3000](http://localhost:3000) – Local development server
+🌍 GitHub Repo: [https://github.com/satyanarayanpatras-projects/ergobite](https://github.com/SatyanarayanPatra/ergobite)
+🔗 [satyanarayanpatras-projects/ergobite](https://ergobite.vercel.app/)
 
 Deploy using Vercel or Netlify with a single click.
 
