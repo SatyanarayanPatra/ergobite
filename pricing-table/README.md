@@ -1,6 +1,6 @@
 # 💰 Responsive Pricing Table Component (Next.js + Tailwind CSS)
 
-A fully responsive, accessible, and dynamic **Pricing Table UI** built with **Next.js**, **Tailwind CSS**, **Framer Motion**, and **Headless UI**. This component supports **Monthly/Yearly billing toggle**, **dark mode**, and a clear **feature comparison matrix** across three pricing tiers: Free, Pro, and Enterprise.
+A fully responsive, accessible, and dynamic **Pricing Table UI** built with **Next.js**, **Tailwind CSS**, **Framer Motion**, and **Headless UI**. This component supports **Monthly/Yearly billing toggle**, feature comparison, and dark mode.
 
 ---
 
@@ -39,24 +39,26 @@ A fully responsive, accessible, and dynamic **Pricing Table UI** built with **Ne
 
 ## 🗂️ Project Structure
 
+```
 pricing-table/
 ├── components/
-│ ├── PricingTable.jsx
-│ ├── PlanCard.jsx
-│ └── DarkModeToggle.jsx
+│   ├── PricingTable.jsx
+│   ├── PlanCard.jsx
+│   └── DarkModeToggle.jsx
 ├── data/
-│ └── pricingData.js
+│   └── pricingData.js
 ├── pages/
-│ └── index.js
+│   └── index.js
 ├── styles/
-│ └── globals.css
+│   └── globals.css
 ├── public/
-│ └── screenshots/
-│ ├── light.png
-│ └── dark.png
+│   └── screenshots/
+│       ├── light.png
+│       └── dark.png
 ├── tailwind.config.js
 ├── postcss.config.js
 └── README.md
+```
 
 ---
 
@@ -65,54 +67,63 @@ pricing-table/
 Clone the project and install dependencies:
 
 ```bash
-git clone https://github.com/SatyanarayanPatra/pricing-table.git
-cd pricing-table
+git clone https://github.com/SatyanarayanPatra/ergobite.git
+cd ergobite
 
 # Install dependencies
 npm install
 
 # Run the development server
 npm run dev
+```
 
-
-Visit the app in your browser:
+Visit the app in your browser:  
 🔗 http://localhost:3000
 
-🌐 Live Demo
-🌍 GitHub Repo: SatyanarayanPatra/ergobite
+---
 
-🚀 Live Site: View on Vercel
+## 🌐 Live Demo & Links
 
-⚙️ Customization
+-   🚀 Live Site: [View on Vercel](https://ergobite.vercel.app/)
+-   🌍 GitHub Repo: [SatyanarayanPatra/ergobite](https://github.com/SatyanarayanPatra/ergobite)
+-   💼 LinkedIn: [Satyanarayan Patra](https://www.linkedin.com/in/satyanarayana-patra-4575b9171/)
+-   🌐 GitHub: [SatyanarayanPatra](https://github.com/SatyanarayanPatra)
+
+---
+
+## ⚙️ Customization
+
 You can easily:
 
-Modify pricing plans in data/pricingData.js
+-   Modify pricing plans in `data/pricingData.js`
+-   Change colors via `tailwind.config.js` or component classes
+-   Add/remove features per plan
+-   Extend with payment integrations like Stripe
+-   Use your own icons or animations
 
-Change colors via tailwind.config.js or component classes
+---
 
-Add/remove features per plan
+## ✨ Accessibility & UX
 
-Extend with payment integrations like Stripe
+-   Keyboard-accessible toggle switch (via Headless UI)
+-   ARIA labels on buttons for screen readers
+-   Dark mode preference saved in `localStorage`
+-   Smooth transitions and animations with Framer Motion
 
-Use your own icons or animations
+---
 
-✨ Accessibility & UX
-Keyboard-accessible toggle switch (via Headless UI)
+## 📄 License
 
-ARIA labels on buttons for screen readers
-
-Dark mode preference saved in localStorage
-
-Smooth transitions and animations with Framer Motion
-
-📄 License
 This project is licensed for personal, educational, or demo use. You may adapt and customize it freely.
 
-👨‍💻 Author
-Satyanarayan Patra
+---
+
+## 👨‍💻 Author
+
+Satyanarayan Patra  
 Frontend Developer
 
-🌐 GitHub
+(https://github.com/SatyanarayanPatra/ergobite)
 
-💼 LinkedIn
-```
+-   💼 LinkedIn: [Satyanarayan Patra](https://www.linkedin.com/in/satyanarayana-patra-4575b9171/)
+-   🌐 GitHub: [SatyanarayanPatra](https://github.com/SatyanarayanPatra)
