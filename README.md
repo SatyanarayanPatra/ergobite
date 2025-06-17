@@ -113,5 +113,7 @@ This project is licensed for personal, educational, or demo use. You may adapt a
 Satyanarayan Patra
 Frontend Developer
 
+- 🚀 Live Site: [View on Vercel](https://ergobite.vercel.app/)
+- 🌍 GitHub Repo: [SatyanarayanPatra/ergobite](https://github.com/SatyanarayanPatra/ergobite)
 - 💼 LinkedIn: [Satyanarayan Patra](https://www.linkedin.com/in/satyanarayana-patra-4575b9171/)
 - 🌐 GitHub: [SatyanarayanPatra](https://github.com/SatyanarayanPatra)
