@@ -58,9 +58,6 @@ pricing-table/
 ├── postcss.config.js
 └── README.md
 
-yaml
-Copy
-Edit
 
 ---
 
