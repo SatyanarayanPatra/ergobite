@@ -39,4 +39,17 @@ A fully responsive, accessible, and dynamic **Pricing Table UI** built with **Ne
 
 ## 🗂️ Project Structure
 
-
+pricing-table/
+├── components/
+│ ├── PricingTable.jsx
+│ ├── PlanCard.jsx
+│ └── DarkModeToggle.jsx
+├── data/
+│ └── pricingData.js
+├── pages/
+│ └── index.js
+├── styles/
+│ └── globals.css
+├── tailwind.config.js
+├── postcss.config.js
+└── README.md
