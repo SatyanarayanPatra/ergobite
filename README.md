@@ -84,6 +84,7 @@ Visit the app in your browser:
 🌐 Live Demo
 - 🚀 Live Site: [View on Vercel](https://ergobite.vercel.app/)
 - 🌍 GitHub Repo: [SatyanarayanPatra/ergobite](https://github.com/SatyanarayanPatra/ergobite)
+
 ⚙️ Customization
 You can easily:
 
