@@ -68,8 +68,8 @@ npm run dev
 
 # Visit in your browser
 http://localhost:3000
-🌐 Live Demo (Optional)
-🔗 View Live on Vercel
+🌐 satyanarayanpatras-projects/ergobite (Optional)
+🔗 satyanarayanpatras-projects/ergobite
 
 Deploy using Vercel or Netlify with a single click.
 
