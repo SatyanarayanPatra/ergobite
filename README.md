@@ -69,6 +69,7 @@ npm run dev
 # Visit in your browser
 - [http://localhost:3000](http://localhost:3000) – Local development server
 🌍 GitHub Repo: [satyanarayanpatras-projects/ergobite](https://github.com/satyanarayanpatras-projects/ergobite)](https://github.com/SatyanarayanPatra/ergobite)](https://github.com/SatyanarayanPatra/ergobite)
+
 🚀 Live Site: [View on Vercel](https://ergobite.vercel.app/)
 
 Deploy using Vercel or Netlify with a single click.
