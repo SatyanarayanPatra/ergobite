@@ -19,21 +19,21 @@ A fully responsive, accessible, and dynamic **Pricing Table UI** built with **Ne
 
 ## 📸 Preview
 
-| 💡 Light Mode | 🌑 Dark Mode |
-|--------------|-------------|
-| ![Light UI](./screenshots/light-mode.png) | ![Dark UI](./screenshots/dark-mode.png) |
+| 💡 Light Mode                                        | 🌑 Dark Mode                                       |
+| ---------------------------------------------------- | -------------------------------------------------- |
+| ![Light UI](./screenshots/light-mode assignment.png) | ![Dark UI](./screenshots/Dark-mode assignment.png) |
 
-> *(Add screenshots of your light and dark mode UI in a `screenshots/` folder for better presentation)*
+> _(Add screenshots of your light and dark mode UI in a `screenshots/` folder for better presentation)_
 
 ---
 
 ## 🧱 Tech Stack
 
-- [Next.js](https://nextjs.org/)
-- [Tailwind CSS](https://tailwindcss.com/)
-- [Framer Motion](https://www.framer.com/motion/)
-- [Headless UI](https://headlessui.dev/)
-- [Lucide Icons](https://lucide.dev/) *(optional)*
+-   [Next.js](https://nextjs.org/)
+-   [Tailwind CSS](https://tailwindcss.com/)
+-   [Framer Motion](https://www.framer.com/motion/)
+-   [Headless UI](https://headlessui.dev/)
+-   [Lucide Icons](https://lucide.dev/) _(optional)_
 
 ---
 
@@ -106,3 +106,4 @@ This project is licensed for personal, educational, or demo use. You may adapt a
 Satyanarayan Patra
 Frontend Developer
 GitHub • LinkedIn
+```
