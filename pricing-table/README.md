@@ -1,40 +1,118 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/pages/api-reference/create-next-app).
+# 💰 Responsive Pricing Table Component (Next.js + Tailwind CSS)
 
-## Getting Started
+A fully responsive, accessible, and dynamic **Pricing Table UI** built with **Next.js**, **Tailwind CSS**, **Framer Motion**, and **Headless UI**. This component supports **Monthly/Yearly billing toggle**, **dark mode**, and a clear **feature comparison matrix** across three pricing tiers: Free, Pro, and Enterprise.
 
-First, run the development server:
+---
+
+## 🚀 Features
+
+-   ✅ 3 Pricing Plans (Free, Pro, Enterprise)
+-   ✅ Monthly/Yearly billing toggle
+-   ✅ Feature comparison table
+-   ✅ Responsive layout (mobile ↔ desktop)
+-   ✅ Dark Mode toggle (with persistence)
+-   ✅ Framer Motion price animation
+-   ✅ Headless UI accessibility
+-   ✅ Tailwind-powered design system
+
+---
+
+## 📸 Preview
+
+| 💡 Light Mode                        | 🌑 Dark Mode                       |
+| ------------------------------------ | ---------------------------------- |
+| ![Light UI](./screenshots/light.png) | ![Dark UI](./screenshots/dark.png) |
+
+> _Ensure your `screenshots/` folder contains `light.png` and `dark.png` files._
+
+---
+
+## 🧱 Tech Stack
+
+-   [Next.js](https://nextjs.org/)
+-   [Tailwind CSS](https://tailwindcss.com/)
+-   [Framer Motion](https://www.framer.com/motion/)
+-   [Headless UI](https://headlessui.dev/)
+-   [Lucide Icons](https://lucide.dev/) _(optional)_
+
+---
+
+## 🗂️ Project Structure
+
+pricing-table/
+├── components/
+│ ├── PricingTable.jsx
+│ ├── PlanCard.jsx
+│ └── DarkModeToggle.jsx
+├── data/
+│ └── pricingData.js
+├── pages/
+│ └── index.js
+├── styles/
+│ └── globals.css
+├── public/
+│ └── screenshots/
+│ ├── light.png
+│ └── dark.png
+├── tailwind.config.js
+├── postcss.config.js
+└── README.md
+
+---
+
+## 📦 Installation & Running Locally
+
+Clone the project and install dependencies:
 
 ```bash
+git clone https://github.com/SatyanarayanPatra/pricing-table.git
+cd pricing-table
+
+# Install dependencies
+npm install
+
+# Run the development server
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+
+
+Visit the app in your browser:
+🔗 http://localhost:3000
+
+🌐 Live Demo
+🌍 GitHub Repo: SatyanarayanPatra/ergobite
+
+🚀 Live Site: View on Vercel
+
+⚙️ Customization
+You can easily:
+
+Modify pricing plans in data/pricingData.js
+
+Change colors via tailwind.config.js or component classes
+
+Add/remove features per plan
+
+Extend with payment integrations like Stripe
+
+Use your own icons or animations
+
+✨ Accessibility & UX
+Keyboard-accessible toggle switch (via Headless UI)
+
+ARIA labels on buttons for screen readers
+
+Dark mode preference saved in localStorage
+
+Smooth transitions and animations with Framer Motion
+
+📄 License
+This project is licensed for personal, educational, or demo use. You may adapt and customize it freely.
+
+👨‍💻 Author
+Satyanarayan Patra
+Frontend Developer
+
+🌐 GitHub
+
+💼 LinkedIn
 ```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
-
-[API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
-
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) instead of React pages.
-
-This project uses [`next/font`](https://nextjs.org/docs/pages/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn-pages-router) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/pages/building-your-application/deploying) for more details.
