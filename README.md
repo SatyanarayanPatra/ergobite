@@ -81,9 +81,8 @@ Visit the app in your browser:
 🔗 http://localhost:3000
 
 🌐 Live Demo
-🌍 GitHub Repo: SatyanarayanPatra/ergobite
-
-🚀 Live Site: View on Vercel
+- 🚀 Live Site: [View on Vercel](https://ergobite.vercel.app/)
+- 🌍 GitHub Repo: [SatyanarayanPatra/ergobite](https://github.com/SatyanarayanPatra/ergobite)
 
 ⚙️ Customization
 You can easily:
@@ -114,6 +113,5 @@ This project is licensed for personal, educational, or demo use. You may adapt a
 Satyanarayan Patra
 Frontend Developer
 
-🌐 GitHub
-
-💼 LinkedIn
+- 💼 LinkedIn: [Satyanarayan Patra](https://www.linkedin.com/in/satyanarayana-patra-4575b9171/)
+- 🌐 GitHub: [SatyanarayanPatra](https://github.com/SatyanarayanPatra)
