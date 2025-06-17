@@ -21,7 +21,7 @@ A fully responsive, accessible, and dynamic **Pricing Table UI** built with **Ne
 
 | 💡 Light Mode                        | 🌑 Dark Mode                       |
 | ------------------------------------ | ---------------------------------- |
-| ![Light UI](./screenshots/light.png) | ![Dark UI](./screenshots/Dark.png) |
+| ![Light UI](./screenshots/light.png) | ![Dark UI](./screenshots/dark.png) |
 
 > _(Add screenshots of your light and dark mode UI in a `screenshots/` folder for better presentation)_
 
@@ -53,8 +53,6 @@ pricing-table/
 ├── tailwind.config.js
 ├── postcss.config.js
 └── README.md
-
-
 
 ## 📦 Installation & Running Locally
 
