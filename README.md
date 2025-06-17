@@ -6,14 +6,14 @@ A fully responsive, accessible, and dynamic **Pricing Table UI** built with **Ne
 
 ## 🚀 Features
 
-✅ 3 Pricing Plans (Free, Pro, Enterprise)  
-✅ Monthly/Yearly billing toggle  
-✅ Feature comparison table  
-✅ Responsive layout (mobile ↔ desktop)  
-✅ Dark Mode toggle (with persistence)  
-✅ Framer Motion price animation  
-✅ Headless UI accessibility  
-✅ Tailwind-powered design system
+- ✅ 3 Pricing Plans (Free, Pro, Enterprise)  
+- ✅ Monthly/Yearly billing toggle  
+- ✅ Feature comparison table  
+- ✅ Responsive layout (mobile ↔ desktop)  
+- ✅ Dark Mode toggle (with persistence)  
+- ✅ Framer Motion price animation  
+- ✅ Headless UI accessibility  
+- ✅ Tailwind-powered design system
 
 ---
 
@@ -23,17 +23,17 @@ A fully responsive, accessible, and dynamic **Pricing Table UI** built with **Ne
 | ------------------------------------ | ---------------------------------- |
 | ![Light UI](./screenshots/light.png) | ![Dark UI](./screenshots/dark.png) |
 
-> _(Add screenshots of your light and dark mode UI in a `screenshots/` folder for better presentation)_
+> _Ensure your `screenshots/` folder contains `light.png` and `dark.png` files._
 
 ---
 
 ## 🧱 Tech Stack
 
--   [Next.js](https://nextjs.org/)
--   [Tailwind CSS](https://tailwindcss.com/)
--   [Framer Motion](https://www.framer.com/motion/)
--   [Headless UI](https://headlessui.dev/)
--   [Lucide Icons](https://lucide.dev/) _(optional)_
+- [Next.js](https://nextjs.org/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [Framer Motion](https://www.framer.com/motion/)
+- [Headless UI](https://headlessui.dev/)
+- [Lucide Icons](https://lucide.dev/) _(optional)_
 
 ---
 
@@ -50,11 +50,23 @@ pricing-table/
 │ └── index.js
 ├── styles/
 │ └── globals.css
+├── public/
+│ └── screenshots/
+│ ├── light.png
+│ └── dark.png
 ├── tailwind.config.js
 ├── postcss.config.js
 └── README.md
 
+yaml
+Copy
+Edit
+
+---
+
 ## 📦 Installation & Running Locally
+
+Clone the project and install dependencies:
 
 ```bash
 git clone https://github.com/SatyanarayanPatra/pricing-table.git
@@ -65,34 +77,35 @@ npm install
 
 # Run the development server
 npm run dev
+Visit the app in your browser:
+🔗 http://localhost:3000
 
-# Visit in your browser
-- [http://localhost:3000](http://localhost:3000) – Local development server
-🌍 GitHub Repo: [satyanarayanpatras-projects/ergobite](https://github.com/satyanarayanpatras-projects/ergobite)](https://github.com/SatyanarayanPatra/ergobite)](https://github.com/SatyanarayanPatra/ergobite)
+🌐 Live Demo
+🌍 GitHub Repo: SatyanarayanPatra/ergobite
 
-🚀 Live Site: [View on Vercel](https://ergobite.vercel.app/)
-
-Deploy using Vercel or Netlify with a single click.
+🚀 Live Site: View on Vercel
 
 ⚙️ Customization
 You can easily:
 
 Modify pricing plans in data/pricingData.js
 
-Change colors via Tailwind or theme config
+Change colors via tailwind.config.js or component classes
 
-Add more features per plan
+Add/remove features per plan
 
-Extend with Stripe checkout or backend logic
+Extend with payment integrations like Stripe
+
+Use your own icons or animations
 
 ✨ Accessibility & UX
-Keyboard-accessible toggle switch (<Switch />)
+Keyboard-accessible toggle switch (via Headless UI)
 
-ARIA labels on buttons
+ARIA labels on buttons for screen readers
 
-Dark mode theme saved in localStorage
+Dark mode preference saved in localStorage
 
-Smooth transitions for prices and UI
+Smooth transitions and animations with Framer Motion
 
 📄 License
 This project is licensed for personal, educational, or demo use. You may adapt and customize it freely.
@@ -100,5 +113,7 @@ This project is licensed for personal, educational, or demo use. You may adapt a
 👨‍💻 Author
 Satyanarayan Patra
 Frontend Developer
-GitHub • LinkedIn
-```
+
+🌐 GitHub
+
+💼 LinkedIn
