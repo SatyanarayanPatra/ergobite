@@ -69,7 +69,7 @@ Edit
 Clone the project and install dependencies:
 
 ```bash
-git clone https://github.com/SatyanarayanPatra/pricing-table.git
+git clone [https://github.com/SatyanarayanPatra/pricing-table.git](https://github.com/SatyanarayanPatra/ergobite)
 cd pricing-table
 
 # Install dependencies
